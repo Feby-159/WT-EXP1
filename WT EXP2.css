@@ -1,0 +1,22 @@
+.link{
+    align: center;
+    text-align: center;
+}
+
+.center {
+    align: center;
+  }
+
+.column {
+    float: left;
+    width: 40.33%;
+    padding: 3px;
+  }
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    align: center;
+    content: "";
+    clear: both;
+    display: table;
+}

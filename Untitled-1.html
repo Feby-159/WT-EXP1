@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#btn").click(function(){
+    var a = '<b>Welcome To JQuery</b>';
+    var b = '<b>Welcome To JQuery</b>';
+$('.box1').text(a);
+$('.box2').html(b);
+})
+});
+</script>
+</head>
+<body>
+<button id="btn">Click Here</button><br><br>
+<div class="box1"></div><br>
+<div class="box2"></div><br>
+</body>
+</html>
